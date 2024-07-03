@@ -8,7 +8,7 @@ router.get('/checkstatus', (req, res, next) => {
     })
 })
 
-router.get('/checkLaptop', (req, res, next) => {
+router.get('/api/checkLaptop', (req, res, next) => {
     res.status(200).json({
         status: 'success',
         message: 'check laptop successfully',
